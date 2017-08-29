@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="moo-excercise-project" />
         <module name="petclinic-tests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="moo-excercise-project" target="1.7" />
       <module name="petclinic-tests" target="1.7" />
     </bytecodeTargetLevel>
   </component>
